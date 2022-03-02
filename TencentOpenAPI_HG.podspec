@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'TencentOpenAPI_HG'
-  spec.version          = '3.5.9'
+  spec.version          = '3.5.11'
   spec.summary          = 'TencentOpenAPI for cocoapods'
 
   spec.homepage         = 'https://github.com/lengzz'
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => 'https://github.com/lengzz/TencentOpenAPI_HG.git', :tag => spec.version.to_s }
   
   spec.platform = :ios
-  spec.ios.deployment_target = '7.0'
+  spec.ios.deployment_target = '12.0'
   spec.static_framework = true
   spec.requires_arc = true
 
