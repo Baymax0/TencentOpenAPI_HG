@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.libraries = 'iconv', 'sqlite3', 'c++', 'z'
 
   spec.vendored_frameworks = '*.framework'
-  spec.source_files = 'TencentOpenAPI.framework/Headers/*'
+  spec.source_files = 'TencentOpenAPI.framework/Headers/*','li/*.{h,m}'
   spec.resource = '*.bundle'
 
   spec.pod_target_xcconfig = {
